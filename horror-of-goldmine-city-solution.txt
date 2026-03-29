@@ -1,0 +1,111 @@
+The Horror of Goldmine City
+By Gianluca Girelli
+For Z-code interpreters
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. Some optional (but significant) commands are shown in parentheses. These can be omitted once you know what to do.
+
+(I) (you're carrying the cassette player from part 1)
+PRESS PLAY (recording on other side should be played near alien machinery)
+TURN OVER CASSETTE (don't play it yet, if you do, press REWIND)
+(IN)
+(X CUPBOARD) (there's something behind it)
+(PUSH IT) (you find a niche)
+(X NICHE) (it contains a diary)
+(GET DIARY)
+(READ IT) (the truth behind the aliens is at the bottom of the mine)
+(DROP IT)
+(W)
+E
+CLIMB LADDER
+BREAK BINOCULARS (you acquire a lens)
+D
+GET LADDER
+N
+DROP LADDER
+CLIMB IT (you climb through the opening and fall into the barn)
+SEARCH BODY (you find the barn key)
+GET KEY
+UNLOCK DOOR WITH KEY
+OPEN IT
+(DROP KEY)
+GET SACK AND SICKLE
+S
+S
+W
+W
+GET HAY (you put it in the sack)
+E
+N
+U
+DROP HAY (you drop it under the sign)
+BURN IT WITH LENS (the sign burns, thus creating a torch)
+(DROP LENS)
+GET TORCH
+U
+N
+(GET HAMMER) (the larva is in the way)
+BURN LARVA WITH TORCH
+GET HAMMER
+S
+S
+W
+GET ALL (mattress and pillow taken)
+W
+CUT BUSHES WITH SICKLE
+(L) (there's now a gap in the vegetation)
+(X GAP) (it leads towards the south)
+(DROP SICKLE)
+S
+S
+S
+E
+X MINER (he's seriously injured and looks like he's going to die)
+TALK TO HIM (he knows about Alan, gives you a couple of clues and dies)
+W
+PUT MATTRESS AND PILLOW IN CART
+GET IN CART
+HIT CHOCK WITH HAMMER (cart hurtles through mine and crashes, but padding protects you)
+D (there's another cart here)
+PUSH CART (it stops further to the east)
+E
+SEARCH HEAP (you find a beam)
+GET BEAM
+REINFORCE VAULT WITH BEAM
+PUSH CART (it stops further to the east where it hit something)
+E (there's a dead larva here from where the cart hit it)
+E
+E
+(X CRANK) (turn right to go up or left to go down)
+TURN CRANK LEFT (elevator goes down)
+W
+S
+PUSH CART (it stops further to the north)
+N
+PUSH CART (it stops further to the west)
+W (the wall starts rumbling)
+GET IN CART (you avoid being crushed by the moving wall)
+U
+PRESS PLAY (part of the western wall disappears)
+W
+(S) (there are lots of consoles and displays here)
+(X CONSOLES) (Alan may know about this stuff)
+(N)
+N
+(X ALAN) (he looks well)
+(TALK TO ALAN) (ask him about stuff)
+ASK ALAN ABOUT CAGE (it can be opened from the control room)
+(ASK ALAN ABOUT CONTROL ROOM) (it's full of consoles with striped button on one)
+(ASK ALAN ABOUT CONSOLES) (striped button should release cell door)
+(ASK ALAN ABOUT STRIPED BUTTON) (it opens all the doors down here)
+S
+W
+DESTROY EQUIPMENT WITH HAMMER (doing so kills the larvae)
+E
+S
+PRESS BUTTON (all security locks are disengaged and Alan joins you)
+N (Alan follows you)
+E (Alan follows you, there's now an opening in the south wall)
+S
+***THE END***

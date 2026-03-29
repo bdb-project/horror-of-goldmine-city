@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.9.3">
+	<info>
+		<title>The Horror of Goldmine City</title>
+		<author>Gianluca Girelli</author>
+	</info>
+	<map>
+		<room id="1" name="Lumber Yard" subtitle="" x="-140" y="-240" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Lumber yard|Medium-sized larva|Large amount of sawdust|Hammer</objects>
+		</room>
+		<room id="4" name="In Front of Lumber Yard" subtitle="" x="-140" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Clearing|Lumber yard</objects>
+		</room>
+		<room id="5" name="Path Up Mountain" subtitle="" x="-20" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Path to mountain|High mountains|Mountain|Precipices|Old directional sign|Pole|Board|(Torch)</objects>
+		</room>
+		<room id="6" name="South End of Clearing" subtitle="" x="-140" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Clearing|Sheet metal|Rock face|Bushes|Miner's shack</objects>
+		</room>
+		<room id="7" name="Foot of Mountain" subtitle="" x="-20" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Path to mountain|High mountains|Fields|Mountain</objects>
+		</room>
+		<room id="9" name="Vegetable Garden" subtitle="" x="100" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Farm|Farmhouse|Vegetable garden|Vegetables|Weeds|Insects|Soil|Narrow opening|Barn door|Wall|Barn</objects>
+		</room>
+		<room id="10" name="In Front of Farmhouse" subtitle="" x="-20" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">(Cassette player)|(Play button)|(Rewind button)|(Eject button)|(Cassette)|(Side A)|(Side B)|(9-volt battery)|Farmhouse|Front|Back|Fence|Large clearing|Farm|Path to mountain|High mountains|Desolation</objects>
+		</room>
+		<room id="11" name="Inside Farmhouse" subtitle="" x="100" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Farmhouse|Farm|Room|Rocking chair|Sofa|Cupboard|Fireplace|(Niche)|(Diary)</objects>
+		</room>
+		<room id="12" name="Back of Farmhouse" subtitle="" x="100" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Farm|Wall|Desolation|Farmhouse|Ladder</objects>
+		</room>
+		<line id="26">
+			<dock index="0" id="1" port="s" />
+			<dock index="1" id="4" port="n" />
+		</line>
+		<line id="29">
+			<dock index="0" id="4" port="s" />
+			<dock index="1" id="6" port="n" />
+		</line>
+		<line id="31" startText="S,D" endText="N,U">
+			<dock index="0" id="5" port="s" />
+			<dock index="1" id="7" port="n" />
+		</line>
+		<line id="32">
+			<dock index="0" id="7" port="s" />
+			<dock index="1" id="10" port="n" />
+		</line>
+		<line id="36">
+			<dock index="0" id="9" port="s" />
+			<dock index="1" id="12" port="n" />
+		</line>
+		<room id="92" name="The Horror of Goldmine City (Gianluca Girelli)" subtitle="" x="-380" y="-280" w="560" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="49" name="Barn" subtitle="" x="100" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Farm|Narrow opening|Barn door|Wall|Barn|Old sack|John's body|Wound on neck|(Barn key)|Sickle</objects>
+		</room>
+		<room id="61" name="Thick Vegetation" subtitle="" x="-380" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Mountain|Sheet metal|Rock face|Window|Miner's shack|Bushes and brambles|Thick vegetation|Old path|Rusty tracks|Buffer stop|(Gap in vegetation)</objects>
+		</room>
+		<room id="62" name="Miner's Shack" subtitle="" x="-260" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Sheet metal|Rock face|Miner's shack|Wall|Window|Old mattress|Dusty pillow|Thick vegetation</objects>
+		</room>
+		<room id="63" name="Entrance to Mine" subtitle="" x="-380" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rusty tracks|Entrance|Mine|Rotten planks|Broken beams</objects>
+		</room>
+		<room id="65" name="Cattle Yard" subtitle="" x="-140" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Fence|Large clearing|Farm|Desolation|Insects|Cattle yard|Dead cattle|Pile of hay</objects>
+		</room>
+		<room id="66" name="Dark Tunnel" subtitle="" x="-380" y="80" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rusty tracks|Entrance|Mine|Dark tunnel</objects>
+		</room>
+		<room id="70" name="Bend in Tunnel" subtitle="" x="-380" y="160" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rusty tracks|Tunnel|Wheel chock|Wheels|Old trolley</objects>
+		</room>
+		<room id="71" name="Dead-End Tunnel" subtitle="" x="-260" y="160" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Miner</objects>
+		</room>
+		<room id="76" name="Dark Tunnel" subtitle="" x="-380" y="240" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Dark tunnel|Vault</objects>
+		</room>
+		<line id="102" startText="D" endText="U">
+			<dock index="0" id="4" port="e" />
+			<dock index="1" id="5" port="w" />
+		</line>
+		<line id="107">
+			<dock index="0" id="61" port="e" />
+			<dock index="1" id="62" port="w" />
+		</line>
+		<line id="108">
+			<dock index="0" id="62" port="e" />
+			<dock index="1" id="6" port="w" />
+		</line>
+		<line id="114">
+			<dock index="0" id="65" port="e" />
+			<dock index="1" id="10" port="w" />
+		</line>
+		<line id="125" style="dashed">
+			<dock index="0" id="61" port="s" />
+			<dock index="1" id="63" port="n" />
+		</line>
+		<line id="126">
+			<dock index="0" id="63" port="s" />
+			<dock index="1" id="66" port="n" />
+		</line>
+		<line id="127" startText="S,D">
+			<dock index="0" id="66" port="s" />
+			<dock index="1" id="70" port="n" />
+		</line>
+		<line id="143" style="dashed">
+			<dock index="0" id="49" port="s" />
+			<dock index="1" id="9" port="n" />
+		</line>
+		<line id="188" style="dashed" flow="oneWay" startText="HIT CHOCK WITH HAMMER">
+			<dock index="0" id="70" port="s" />
+			<dock index="1" id="76" port="n" />
+		</line>
+		<line id="191">
+			<dock index="0" id="70" port="e" />
+			<dock index="1" id="71" port="w" />
+		</line>
+		<room id="207" name="Dark Tunnel" subtitle="" x="-380" y="320" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Dark tunnel|Rusty tracks|Ceiling|Rotten beams|Old trolley</objects>
+		</room>
+		<room id="208" name="Intersection in Tunnel" subtitle="" x="-260" y="320" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rusty tracks|Ceiling|Rotten beams|Intersection in tunnel|Vault of tunnel|Heap of building materials|(Beam of wood)</objects>
+		</room>
+		<room id="209" name="Dark Tunnel" subtitle="" x="-140" y="320" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Tunnel|Rusty tracks|Ceiling|Rotten beams|Rock wall|Large-sized larva</objects>
+		</room>
+		<room id="210" name="End of Tunnel" subtitle="" x="-20" y="320" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Tunnel|Cavity|Ropes and pulleys|Mine elevator</objects>
+		</room>
+		<room id="214" name="Old Elevator" subtitle="" x="100" y="400" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Dash" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Ropes and pulleys|Cracks between planks|Handle|Mine elevator</objects>
+		</room>
+		<room id="219" name="Small Room" subtitle="" x="-140" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Tracks|Ceiling|Small room|Opening|Moving wall|Intense brightness</objects>
+		</room>
+		<room id="220" name="Passage" subtitle="" x="-20" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Cavity|Ropes and pulleys|Mine elevator|Tracks|Passage|Smooth walls|Ceiling</objects>
+		</room>
+		<line id="225" startText="D" endText="U">
+			<dock index="0" id="76" port="s" />
+			<dock index="1" id="207" port="n" />
+		</line>
+		<line id="237" style="dashed">
+			<dock index="0" id="210" port="e" />
+			<dock index="1" id="16" port="w" />
+		</line>
+		<line id="238" style="dashed">
+			<dock index="0" id="220" port="e" />
+			<dock index="1" id="214" port="w" />
+		</line>
+		<line id="257" style="dashed">
+			<dock index="0" id="208" port="e" />
+			<dock index="1" id="209" port="w" />
+		</line>
+		<line id="258">
+			<dock index="0" id="207" port="e" />
+			<dock index="1" id="208" port="w" />
+		</line>
+		<line id="259" style="dashed">
+			<dock index="0" id="209" port="e" />
+			<dock index="1" id="210" port="w" />
+		</line>
+		<line id="267">
+			<dock index="0" id="220" port="w" />
+			<dock index="1" id="219" port="e" />
+		</line>
+		<room id="347" name="Small Room" subtitle="" x="-140" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Opening|Small room|Intense brightness</objects>
+		</room>
+		<room id="366" name="Long Corridor" subtitle="" x="-260" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="371" style="dashed" startText="U" endText="D">
+			<dock index="0" id="219" port="s" />
+			<dock index="1" id="347" port="n" />
+		</line>
+		<line id="383">
+			<dock index="0" id="347" port="w" />
+			<dock index="1" id="366" port="e" />
+		</line>
+		<room id="231" name="Copyright © Garry Francis 2026" subtitle="" x="40" y="560" w="200" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="232" name="Legend" subtitle="" x="-340" y="-260" w="100" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="None" description="" roomFill="#FFFFFF" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="240" name="Start Room" subtitle="" x="-380" y="-220" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="241" name="Normal Room" subtitle="" x="-380" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="286" name="Dark Room" subtitle="" x="-280" y="-220" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="2" startText="IN">
+			<dock index="0" id="10" port="s" />
+			<point index="1" x="20" y="100" />
+		</line>
+		<room id="14" name="Dead-End Tunnel" subtitle="" x="-20" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Tracks|Ceiling|Dead-end passage|New trolley</objects>
+		</room>
+		<line id="15">
+			<dock index="0" id="220" port="s" />
+			<dock index="1" id="14" port="n" />
+		</line>
+		<room id="16" name="Old Elevator" subtitle="" x="100" y="320" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Ropes and pulleys|Cracks between planks|Handle|Mine elevator</objects>
+		</room>
+		<line id="17" startText="TURN CRANK LEFT" endText="TURN CRANK RIGHT">
+			<dock index="0" id="16" port="s" />
+			<dock index="1" id="214" port="n" />
+		</line>
+		<line id="18">
+			<dock index="0" id="10" port="e" />
+			<dock index="1" id="12" port="w" />
+		</line>
+		<room id="3" name="Detention Sector" subtitle="" x="-260" y="400" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Detention sector|Cell|Cousin Alan</objects>
+		</room>
+		<line id="19">
+			<dock index="0" id="3" port="s" />
+			<dock index="1" id="366" port="n" />
+		</line>
+		<room id="20" name="Control Room" subtitle="" x="-260" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Consoles|Displays|(Emergency release button)</objects>
+		</room>
+		<line id="21">
+			<dock index="0" id="366" port="s" />
+			<dock index="1" id="20" port="n" />
+		</line>
+		<room id="22" name="Incubator Room" subtitle="" x="-380" y="480" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Strange equipment|Monstrous larvae|(Destroyed equipment)|(Remains of monstrous larvae)</objects>
+		</room>
+		<line id="23">
+			<dock index="0" id="22" port="e" />
+			<dock index="1" id="366" port="w" />
+		</line>
+		<room id="8" name="Outside Mine" subtitle="" x="-140" y="560" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="24" style="dashed" flow="oneWay">
+			<dock index="0" id="347" port="s" />
+			<dock index="1" id="8" port="n" />
+		</line>
+		<line id="25" startText="W,OUT">
+			<dock index="0" id="11" port="w" />
+			<point index="1" x="20" y="100" />
+		</line>
+		<line id="27" style="dashed" startText="U" endText="U">
+			<dock index="0" id="9" port="nne" />
+			<dock index="1" id="49" port="sse" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>#FFFF99</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Dark Name="Dark" TextColor="Black">Silver</Dark>
+			<Dead Name="Dead" TextColor="White">Red</Dead>
+			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
+			<Normal Name="Normal" TextColor="Black">#FFFF80</Normal>
+			<Underwater Name="Underwater" TextColor="Black">#80FFFF</Underwater>
+		</regions>
+		<fonts>
+			<room size="12">Arial</room>
+			<object size="12">Arial Narrow</object>
+			<line size="12">Arial Narrow</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>20</size>
+		</grid>
+		<lines>
+			<width>1</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>8</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>10</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>20</connectionStalkLength>
+			<preferredDistanceBetweenRooms>40</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+		</rooms>
+		<ui>
+			<handleSize>8</handleSize>
+			<snapToElementSize>8</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>
